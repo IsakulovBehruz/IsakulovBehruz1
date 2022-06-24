@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: green;
+}
+
+header ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+div {
+    text-align: center;
+
+
+}
+
+body {
+    background-image: url(./Без\ названия\ \(1\).jfif);
+    background-size: cover;
+}
+
+p {
+    margin: 0 auto;
+    color: red;
+}
+
+.xarita{
+    margin: auto;
+    text-align: center;
+}
+
