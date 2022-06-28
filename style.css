@@ -1,36 +1,72 @@
-header {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    color: green;
-}
-
-header ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-}
-
-div {
-    text-align: center;
-
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    background-image: url(./Без\ названия\ \(1\).jfif);
-    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
-p {
-    margin: 0 auto;
-    color: red;
+.wrapper {
+    width: 500px;
+    height: 500px;
+    border: 2px solid #993401;
+    display: flex;
 }
 
-.xarita{
-    margin: auto;
-    text-align: center;
+.left {
+    height: 100%;
+    width: 30%;
+    background-color: #480469;
+    border: 2px solid #993401;
+    color: #FAD3E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.right {
+    height: 100%;
+    width: 70%;
+    border: 2px solid #993401;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shapka {
+    background-color: #A37EB2;
+    border: 2px solid #993401;
+    color: #2B033F;
+    width: 100%;
+    height: 30%;
+}
+
+.menu {
+    background-color: #E6CAF3;
+    border: 2px solid #993401;
+    color: #000;
+    width: 100%;
+    height: 10%;
+}
+
+.kontent {
+    background-color: #F2E1C7;
+    border: 2px solid #993401;
+    color: #000;
+    width: 100%;
+    height: 60%;
+}
